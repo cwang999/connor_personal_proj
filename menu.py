@@ -10,7 +10,7 @@ country_options = {
 # Print menu options from dictionary key/value pair
 def print_menu2():
     for key in country_options.keys():
-        print(key, '--', menu_options[key] )
+        print('Country,' key, '--', menu_options[key] )
     runOptions()
 
 # menu option 1
@@ -23,12 +23,12 @@ def belarus():
 
 # menu option 3
 def china():
-    print('You chose \'3 - Cisty\'')
+    print('You chose \' 3 - China\'')
     
 # menu option 4
 def denmark():
-    print('You chose \'4 - Denmark\'')
+    print('You chose \' 4 - Denmark\'')
     
 # menu option 5
 def estonia():
-    print('You chose \'5 - Estonia\'')
+    print('You chose \' 5 - Estonia\'')
