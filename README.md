@@ -1,2 +1,2 @@
-# connor_personal_proj
+# Connor Personal Project
 connor's personal project
