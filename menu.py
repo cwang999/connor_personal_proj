@@ -7,9 +7,9 @@ from numpy import *
 
 # Menu options as a dictionary
 menu1_options = {
-    1: 'S',
+    1: 'Patterns',
     2: 'N',
-    3: 'P',
+    3: 'S',
     4: 'Exit',
 }
 
@@ -20,16 +20,16 @@ def print_menu1():
     runOptions()
 
 # menu option 1
-def s():
-    print('You chose \' 1 -  S\'')
+def patterns():
+    print('You chose \' 1 -  Patterns\'')
 
 # menu option 2
 def n():
     print('You chose \' 2 - N\'')
     
 # menu option 3
-def p():
-    print('You chose \' 2 - P\'')
+def s():
+    print('You chose \' 2 - S\'')
 
 
 # call functions based on input choice
@@ -43,7 +43,7 @@ def runOptions():
             elif option == 2:
                 n()
             elif option == 3:
-                p()
+                s()
             # Exit menu    
             elif option == 4:  
                 print('Exiting! Thank you! Goodbye!')
@@ -104,6 +104,13 @@ def ship():
         ship_print(position)  # call to function with parameter
         time.sleep(.1)
   print_menu2()
+  
+# christmas tree
+def christmas():
+  height = 11
+  for i in range(height):
+      print((' ' * (height - i)) + ('*' * ((2 * i) + 1)))
+  print((' ' * height) + '|')
 
 """
 ======================================================================
@@ -113,8 +120,8 @@ def ship():
 
 # Menu options as a dictionary
 menu2_options = {
-    1: 'Hello',
-    2: 'Hola',
+    1: 'Christmas',
+    2: 'Titanic',
     3: 'Exit',
 }
 
@@ -123,24 +130,36 @@ def print_menu2():
     for optionID in menu2_options.keys():
         print(optionID, '--', menu2_options[optionID] )
     runOptions2()
+    
+# menu option 1
+def christmas_option():
+    print('You chose \' 1 -  Christmas\'')
+
+# menu option 2
+def ship_option():
+    print('You chose \' 2 - Ship\'')
+    
 
 # call functions based on input choice
 def runOptions2():
     # infinite loop to accept/process user menu choice
     while True:
         try:
-            option = int(input('Enter your choice 1-4: '))
+            option = int(input('Enter your choice 1-3: '))
             if option == 1:
-                print('Working on the christmas tree. Be patient.')
+                christmas_option()
+                print("It's the most wonderful time of the year")
+                christmas()
                 exit()
             elif option == 2:
+                ship_option()
                 ship()
             # Exit menu    
             elif option == 3:  
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
-                print('Invalid option. Please enter a number between 1 and 4.')
+                print('Invalid option. Please enter a number between 1 and 3.')
         except ValueError:
             print('Invalid input. Please enter an integer input.')
 
