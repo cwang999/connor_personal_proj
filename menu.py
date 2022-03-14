@@ -6,7 +6,7 @@ Writing a function to print a menu
 
 # Menu options in print statement
 def print_menu1():
-    print('1 -- America' )
+    print('1 -- Animations & menus' )
     print('2 -- Belarus' )
     print('3 -- China' )
     print('4 -- Denmark' )
@@ -16,7 +16,7 @@ def print_menu1():
 
 # Menu options as a dictionary
 menu_options = {
-    1: 'America',
+    1: 'Animations & menus',
     2: 'Belarus',
     3: 'China',
     4: 'Denmark',
@@ -30,8 +30,8 @@ def print_menu2():
     runOptions()
 
 # menu option 1
-def america():
-    print('You chose \' 1 -  America\'')
+def animenus():
+    print('You chose \' 1 -  Animations & menus\'')
 
 # menu option 2
 def belarus():
@@ -53,7 +53,7 @@ def runOptions():
         try:
             option = int(input('Enter your choice 1-4: '))
             if option == 1:
-                america()
+                animenus()
             elif option == 2:
                 belarus()
             elif option == 3:
