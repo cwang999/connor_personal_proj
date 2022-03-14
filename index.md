@@ -6,7 +6,7 @@ Welcome to Connor's personal project! Here you see my tech talk notes and challe
 [Create task](createtask.md) \
 [Keypad](keypad.py) \
 [Swap](swap.py) \
-[Menu](menu.py) \
+[Menu](menu.py) 
 
 
 | Name             | Code                                                                                                      |
