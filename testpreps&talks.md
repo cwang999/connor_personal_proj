@@ -1,6 +1,7 @@
 Welcome to the connor_personal_proj wiki!
 
-# Tech Talk 0 Difference between static coding and dynamic structures (we want data structures)’ Dictionaries are dynamic structures Try Except Fail - tries to open files
+# Tech Talk 0
+Difference between static coding and dynamic structures (we want data structures)’ Dictionaries are dynamic structures Try Except Fail - tries to open files
 
 # TPT 0.1 Beneficial and Harmful Effects of Computing
 
