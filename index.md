@@ -16,5 +16,5 @@ Welcome to Connor's personal project! Here you see my tech talk notes and challe
 | Week 2 | [--]() |
 | Week 3 | [--]() |
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@CcWw/connorpersonalproj-2#menu.py?embed=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@CcWw/connorpersonalproj-2?embed=true"></iframe>
 
