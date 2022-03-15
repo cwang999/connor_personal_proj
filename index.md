@@ -4,9 +4,9 @@ Welcome to Connor's personal project! Here you see my tech talk notes and challe
 [Read me](README.md) \
 [Tech Talks and Test Prep](testpreps&talks.md) \
 [Create task](createtask.md) \
-[Keypad](keypad) \
-[Swap](swap) \
-[Menu](menu) 
+[Keypad](keypad.md) \
+[Swap](swap.md) \
+[Menu](menu.md) 
 
 
 | Name             | Code                                                                                                      |
