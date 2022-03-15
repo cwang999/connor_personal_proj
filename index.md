@@ -4,7 +4,7 @@ Welcome to Connor's personal project! Here you see my tech talk notes and challe
 [Read me](README.md) \
 [Tech Talks and Test Prep](testpreps&talks.md) \
 [Create task](createtask.md) \
-[Repository](https://github.com/cwang999/connor_personal_proj/
+[Repository](https://github.com/cwang999/connor_personal_proj/)
 
 | Name             | Code                                                                                                      |
 | ---------------- | --------------- |
