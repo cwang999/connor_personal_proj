@@ -103,7 +103,7 @@ def runOptions():
 #     for position in range(start, distance, step):
 #         ship_print(position)  # call to function with parameter
 #         time.sleep(.1)
-#     print_menu2()
+#   print_menu2()
   
 #funcy.py
 import time
@@ -149,7 +149,7 @@ def ship():
     for position in range(start, distance, step):
         ship_print(position)  # call to function with parameter
         time.sleep(.1)
-  print_menu2()
+    print_menu2()
   
 # christmas tree
 def christmas():
@@ -158,6 +158,22 @@ def christmas():
       print((' ' * (height - i)) + ('*' * ((2 * i) + 1)))
   print((' ' * height) + '|')
 
+# keypad
+matrix = [ [7,8,9],[4,5,6],[1,2,3],[" ","0"," "] ] 
+def keypad():
+  for i in matrix:
+    for x in i:
+      print(x,end = ' ')
+    print()
+
+# swap
+def swap(a, b):
+  if a > b:
+      swap = a  # classic swap technique
+      a = b
+      b = swap
+  return a, b
+    
 """
 ======================================================================
                          MENU 2
@@ -168,7 +184,9 @@ def christmas():
 menu2_options = {
     1: 'Christmas',
     2: 'Titanic',
-    3: 'Exit',
+    3: 'Keypad',
+    4: 'Swap',
+    5: 'Exit',
 }
 
 # Print menu options from dictionary key/value pair
@@ -184,7 +202,15 @@ def christmas_option():
 # menu option 2
 def ship_option():
     print('You chose \' 2 - Ship\'')
-    
+
+# menu option 3
+def keypad_option():
+    print('You chose \' 3 - Keypad\'')
+
+# menu option 4
+def swap_option():
+    print('You chose \' 4 - Swap\'')
+
 
 # call functions based on input choice
 def runOptions2():
@@ -200,6 +226,14 @@ def runOptions2():
             elif option == 2:
                 ship_option()
                 ship()
+            elif option == 3:
+                keypad_option()
+                keypad()
+            elif option == 4:
+                swap_option()
+                a = input("Choose a")
+                b = input("Choose b")
+                print(swap(a,b))
             # Exit menu    
             elif option == 3:  
                 print('Exiting! Thank you! Good Bye...')
