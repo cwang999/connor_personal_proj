@@ -49,3 +49,13 @@ Come up with some thoughts on the video and be ready to discuss them as I call o
   - Yes, in cases of computing bias that adversely and unintentionally affects certain groups, the bias should be corrected.
 - What would you or should you do to produce a better outcome?
   - In order to avoid this bias, you should find representative data samples when developing computer programs that represent the wider population who will use your software.
+
+# 5.4 Crowdsourcing
+- Way to reduce bias in computing
+- Example: Wikipedia: often inaccurate, but often corrected through self-policing
+- Data samples must be representative of larger population
+- Actions
+  - CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+    - One crowdsource idea is that we could collect data about what CSP students think would be the best way to learn computer science. This would be like the surveys done by AP statistics students. We could then learn from this feedback and adjust the CSP curriculum by, for example, changing the focus from PBL to a more traditional learning style if students struggle with the former.
+  - What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+    - Del crowd sourcing is regularly done with AP Stats student surveys and the regular DNN videos in which some students go around interviewing people on campus. My final project could be better with crowdsourcing because I could be getting feedback about my program from Del Norte students.
