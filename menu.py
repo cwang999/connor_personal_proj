@@ -127,11 +127,11 @@ def ship_print(position):
     print(ANSI_HOME_CURSOR)
     print(RESET_COLOR)
     sp = " " * position
-    print(sp + "    |\   ")
-    print(sp + "    |/   ")
+    print(sp + "        |\   ")
+    print(sp + "        |/   ")
     print(SHIP_COLOR, end="")
-    print(sp + "\__ |__/ ")
-    print(sp + " \____/  ")
+    print(sp + "\___ __ |____ __/ ")
+    print(sp + " \_o_Titanic_o_/  ")
     print(RESET_COLOR)
 
 
