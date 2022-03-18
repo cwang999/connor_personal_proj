@@ -1,3 +1,3 @@
-{% include navbar.html %}
-# Connor Personal Project
-connor's personal project
+
+# Read Me
+This is the Read Me for my individual project.
