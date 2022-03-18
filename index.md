@@ -2,6 +2,7 @@
 Welcome to Connor's personal project! Here you see my tech talk notes and challenges.
 
 {% include navbar.html %}
+{% include_relative README.md %}
 
 [Read me](README.md) \
 [Tech Talks and Test Prep](testpreps&talks.md) \
