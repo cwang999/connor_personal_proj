@@ -1,8 +1,1 @@
-<table>
-  <tr>
-    <th>[Read Me](README.md)</th>
-    <th>[Tech Talks and Test Prep](testprepsandtalks.md)</th>
-    <th>Create Task(createtask.md)</th>
-    <th>Repository(https://github.com/cwang999/connor_personal_proj)</th>
-  </tr>
-</table>
+
