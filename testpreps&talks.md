@@ -1,4 +1,4 @@
-Welcome to the connor_personal_proj wiki!
+{% include navbar.html %}
 
 # Tech Talk 0
 Difference between static coding and dynamic structures (we want data structures)’ Dictionaries are dynamic structures Try Except Fail - tries to open files
