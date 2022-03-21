@@ -231,8 +231,8 @@ def runOptions2():
                 keypad()
             elif option == 4:
                 swap_option()
-                a = input("Choose a")
-                b = input("Choose b")
+                a = input("Choose a: ")
+                b = input("Choose b: ")
                 print(swap(a,b))
             # Exit menu    
             elif option == 5:  
