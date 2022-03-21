@@ -14,13 +14,19 @@ def fib_seq(n):
     
     print(0)
     helper(1, 1, 0)
+  
         
 def print_fib(n):
     try:
         fib_seq(n)
     except:
         print("Invalid n")
-        
-while True:
-  f = input('Which Fibonacci number to go up to?: ')
-  print(fib_seq(int(f)-1))
+
+
+def fib_tester():
+  while True:
+    f = input('Which Fibonacci number to go up to?: ')
+    print_fib(int(f)-1)
+
+
+fib_tester()
