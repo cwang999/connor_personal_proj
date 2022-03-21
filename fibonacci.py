@@ -22,5 +22,5 @@ def print_fib(n):
         print("Invalid n")
         
 while True:
-  f = input('Which Fibonacci number to find? (small number): ')
-  print(fib_seq(int(f)))
+  f = input('Which Fibonacci number to go up to?: ')
+  print(fib_seq(int(f)-1))
