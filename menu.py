@@ -217,7 +217,7 @@ def runOptions2():
     # infinite loop to accept/process user menu choice
     while True:
         try:
-            option = int(input('Enter your choice 1-3: '))
+            option = int(input('Enter your choice 1-5: '))
             if option == 1:
                 christmas_option()
                 print("It's the most wonderful time of the year")
@@ -235,7 +235,7 @@ def runOptions2():
                 b = input("Choose b")
                 print(swap(a,b))
             # Exit menu    
-            elif option == 3:  
+            elif option == 5:  
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
