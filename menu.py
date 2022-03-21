@@ -222,7 +222,7 @@ def runOptions2():
                 christmas_option()
                 print("It's the most wonderful time of the year")
                 christmas()
-                exit()
+                # exit()
             elif option == 2:
                 ship_option()
                 ship()
