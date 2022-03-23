@@ -59,3 +59,50 @@ Come up with some thoughts on the video and be ready to discuss them as I call o
     - One crowdsource idea is that we could collect data about what CSP students think would be the best way to learn computer science. This would be like the surveys done by AP statistics students. We could then learn from this feedback and adjust the CSP curriculum by, for example, changing the focus from PBL to a more traditional learning style if students struggle with the former.
   - What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
     - Del crowd sourcing is regularly done with AP Stats student surveys and the regular DNN videos in which some students go around interviewing people on campus. My final project could be better with crowdsourcing because I could be getting feedback about my program from Del Norte students.
+
+# 5.5 Legal and Ethical Concerns
+- Royalties: companies can make money on patents, ex: Qualcomm
+- If you use GPL version 3 and distribute that software, that software must be open source and free
+- Qualcomm doesn’t want them to be free, wants patents (Patents vs GPL)
+- Qualcomm uses GPL too
+- Always abide by license terms
+Actions:
+- When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
+- The licenses I found include Apache License 2.0, GNU General Public License v3, MIT License, Creative Commons Zero v1 Universal, etc.
+- Apache: 
+- Permissions: commercial use, modification, distribution, patent use, private use
+- Limitations: trademark use, liability, warranty
+- GNU: 
+  - Permissions: Commercial use, modification, distribution, patent use, private use
+  - Limitations: Liability, warranty
+- MIT:
+  - Commercial use, modification, distribution, private use
+  - Limitations: Liability, warranty
+- Make a license for your personal and Team project. Document license you picked and why.
+  - I chose the GNU General Public License v3 for both my personal and team project because I felt it gives the most freedom to the user to distribute and modify the software. I have no incentive to make it closed source/non-removable.
+
+# 5.6 Github Actions
+- Avoid giving out personal information (phone number, credit card number, etc.)
+- Some things known by everyone (city, email, etc.)
+- Good practices:
+  - Multi Factor authentication
+  - Beware of malware in email attachments
+- Watch 5.6 Video 2
+- Actions
+  - Describe PII you have seen on project in CompSci Principles.
+    - PII includes our login information that we use on Slack and Github. Besides that, we don’t usually use risky PII in CSP.
+  - What are your feelings about PII and your exposure?
+    - I try to make strong passwords but other than that I don’t think too much about security, which I know I should think more about. 
+  - Describe good and bad passwords? What is another step that is used to assist in authentication.
+    - Good password = many types of characters, good length. Bad = too simple and predictable. Multi-factor authentication (like code sent to the phone) is used to help authentication.
+  - Try to describe Symmetric and Asymmetric encryption.
+    - Symmetric encryption uses the same publicly available key to encrypt and decrypt. Asymmetric encryption uses a public key to encrypt and a private key to decrypt. 
+  - Provide an example of encryption we used in deployment.
+    - I was not a deployment manager for my project, so I don’t know the details of encryption, but it was likely used to make our website’s address more secure.
+  - Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
+    - Fortunately I haven’t been a victim of phishing yet as I am careful not to click suspicious links. Phishing techniques usually involve suspicious emails that mimic major organizations to try to get you to provide personal information.
+# TT2
+- Keep your files organized
+- Don’t keep everything in the root
+- When you have both procedural and data abstraction, that’s a class
+- Learn how to debug code in IntelliJ
