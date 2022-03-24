@@ -88,6 +88,14 @@ Actions:
   - Multi Factor authentication
   - Beware of malware in email attachments
 - Watch 5.6 Video 2
+  - Authentication measure protect devices and information from unauthorized information
+  - Types of authentiation: what you know, what you want, what you have
+  - Viruses are malicious programs that can copy themselves and gain access to systems that they are not supposed to be in
+  - Virus scans can help prevent malicious code from damaging system 
+  - Once legitimate access to a system is gained, it's important to ensure data sent to/from system is uncompromised - encryption and decryption (prevent unauthorized interception of data)
+  - Encryption: symmetric and asymmetric
+    - Asymmetric: public key encription - uses two keys, a public for encrypting and a private for decrypting; anyone can encrypt but private key needed for decrypting
+    - Digital certificates: certificate authorities issue digital certificates that validate the ownership of encryption keys used in secure communications
 - Actions
   - Describe PII you have seen on project in CompSci Principles.
     - PII includes our login information that we use on Slack and Github. Besides that, we don’t usually use risky PII in CSP.
