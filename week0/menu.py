@@ -1,4 +1,7 @@
 from numpy import *
+from week0 import keypad, menu, swap
+from week1 import fibonacci, infodb
+from week2 import Factorial, Palindrome, SquareRoot
 """ 
 ======================================================================
                              MENU 1
