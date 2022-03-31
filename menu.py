@@ -1,5 +1,5 @@
 from numpy import *
-from week0 import keypad, menu, swap
+from week0 import keypad, swap
 from week1 import fibonacci, infodb
 from week2 import Factorial, Palindrome, SquareRoot
 """ 
@@ -26,13 +26,13 @@ from week2 import Factorial, Palindrome, SquareRoot
 # def patterns():
 #     print('You chose \' 1 -  Patterns\'')
 
-# # menu option 2
-# def n():
-#     print('You chose \' 2 - N\'')
+# menu option 2
+def n():
+    print('You chose \' 2 - N\'')
     
-# # menu option 3
-# def s():
-#     print('You chose \' 2 - S\'')
+# menu option 3
+def s():
+    print('You chose \' 2 - S\'')
 
 
 # # call functions based on input choice
@@ -152,7 +152,7 @@ def ship():
     for position in range(start, distance, step):
         ship_print(position)  # call to function with parameter
         time.sleep(.1)
-    print_menu2()
+
   
 # christmas tree
 def christmas():
@@ -161,21 +161,6 @@ def christmas():
       print((' ' * (height - i)) + ('*' * ((2 * i) + 1)))
   print((' ' * height) + '|')
 
-# keypad
-matrix = [ [7,8,9],[4,5,6],[1,2,3],[" ","0"," "] ] 
-def keypad():
-  for i in matrix:
-    for x in i:
-      print(x,end = ' ')
-    print()
-
-# swap
-def swap(a, b):
-  if a > b:
-      swap = a  # classic swap technique
-      a = b
-      b = swap
-  return a, b
     
 """
 ======================================================================
@@ -249,8 +234,8 @@ def swap(a, b):
 
 
 main_menu = [
-    ["N", n],
-    ["S", s],
+    ["Option 1", n],
+    ["Option 2", s],
     # ["Loopy", loopy.main],
 ]
 
@@ -268,13 +253,9 @@ patterns_sub_menu = [
     ["Keypad", keypad.driver],
     ["Swap", swap.driver],
 ]
-Christmas',
-    2: 'Titanic',
-    3: 'Keypad',
-    4: 'Swap',
-    5: 'Exit
-week2_sub_menu = [["Factorials using __call__", Factorial_with_call.driver],
-                  ["Cube Root using Imperative and OOP", CubeRoot.driver]]
+
+# week2_sub_menu = [["Factorials using __call__", Factorial_with_call.driver],
+#                   ["Cube Root using Imperative and OOP", CubeRoot.driver]]
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -288,7 +269,7 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Patterns", patterns_sub_menu])
+    menu_list.append(["Patterns", patterns_submenu])
 #     menu_list.append(["Week 1", week1_submenu])
 #     menu_list.append(["Week 2", week2_submenu])
     buildMenu(title, menu_list)

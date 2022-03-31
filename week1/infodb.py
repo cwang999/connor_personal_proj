@@ -75,4 +75,3 @@ def tester():
   recursive_print(0)
   print()
 
-tester()

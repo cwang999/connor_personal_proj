@@ -24,5 +24,3 @@ def tester():
     x = int(input("Enter a number: "))
     print(f"The factorial of {x} is: {fact(x)}")
 
-tester()
-

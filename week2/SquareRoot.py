@@ -22,5 +22,3 @@ def tester():
     print(f"Imperative says the square root of {x} is: {sqrt(x)}")
     print(f"OOP says the square root of {x} is {sqrt_calc(x)}")
 
-tester()
-

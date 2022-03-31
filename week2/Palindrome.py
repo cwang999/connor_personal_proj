@@ -12,4 +12,3 @@ def tester():
     x = input("Enter a string: ")
     print(f"Is the string you entered a palindrome? The test says: {palindrometest(x)}")
 
-tester()
