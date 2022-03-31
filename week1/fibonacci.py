@@ -24,9 +24,6 @@ def print_fib(n):
 
 
 def fib_tester():
-  while True:
     f = input('Which Fibonacci number to go up to?: ')
     print_fib(int(f)-1)
 
-
-fib_tester()
