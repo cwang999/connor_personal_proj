@@ -241,11 +241,11 @@ main_menu = [
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-# week1_sub_menu = [
-#     ["Dictionaries", dictionaries.tester1],
-#     ["Factorials", factorials.tester2],
-#     ["Fibonacci", fibonacci.driver],
-# ]
+math_sub_menu = [
+    ["Dictionaries", infodb.tester],
+    ["Factorials", Factorial.tester],
+    ["Fibonacci", fibonacci.fib_tester],
+]
 
 patterns_sub_menu = [
     ["Christmas", christmas],
@@ -270,7 +270,7 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Patterns", patterns_submenu])
-#     menu_list.append(["Week 1", week1_submenu])
+    menu_list.append(["Math", databases_submenu])
 #     menu_list.append(["Week 2", week2_submenu])
     buildMenu(title, menu_list)
 
@@ -283,9 +283,9 @@ def patterns_submenu():
     buildMenu(title, patterns_sub_menu)
 
 
-# def week1_submenu():
-#     title = "Week 1 Deliverables" + banner
-#     buildMenu(title, week1_sub_menu)
+def databases_submenu():
+    title = "Databases" + banner
+    buildMenu(title, math_sub_menu)
 
 
 # def week2_submenu():
