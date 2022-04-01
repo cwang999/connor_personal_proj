@@ -270,7 +270,7 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Patterns", patterns_submenu])
-    menu_list.append(["Math", databases_submenu])
+    menu_list.append(["Math and Databases", databases_submenu])
 #     menu_list.append(["Week 2", week2_submenu])
     buildMenu(title, menu_list)
 
@@ -284,7 +284,7 @@ def patterns_submenu():
 
 
 def databases_submenu():
-    title = "Databases" + banner
+    title = "Math and Databases" + banner
     buildMenu(title, math_sub_menu)
 
 

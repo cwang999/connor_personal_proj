@@ -20,7 +20,6 @@ class FactorialCalculator:
 
 def tester():
   fact = FactorialCalculator()
-  while True:
-    x = int(input("Enter a number: "))
-    print(f"The factorial of {x} is: {fact(x)}")
+  x = int(input("Enter a number: "))
+  print(f"The factorial of {x} is: {fact(x)}")
 
