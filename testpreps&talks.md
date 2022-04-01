@@ -1,6 +1,6 @@
 {% include navbar.html %}
 
-# Tech Talk 0
+# Tech Talk 0 Key Learnings
 Difference between static coding and dynamic structures (we want data structures)’
 - Dictionaries are dynamic structures
 - Try Except Fail - tries to open files
@@ -24,7 +24,7 @@ Difference between static coding and dynamic structures (we want data structures
 - Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte
   - Any form of restricting access to technology is not digital empowerment. One example is the PUSD wifi, which isn’t great and lots of websites are restricted. Websites that would greatly benefit students’ learnings are prohibited.
 
-# Tech Talk 1
+# Tech Talk 1 Key Learnings
 TT1
 - Lists and dictionaries are collection data structures (hold multiple values)
 - CRUD: user defines table as a class
@@ -121,7 +121,8 @@ Actions:
     - I was not a deployment manager for my project, so I don’t know the details of encryption, but it was likely used to make our website’s address more secure.
   - Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
     - Fortunately I haven’t been a victim of phishing yet as I am careful not to click suspicious links. Phishing techniques usually involve suspicious emails that mimic major organizations to try to get you to provide personal information.
-# TT2
+
+# Tech Talk 2 Key Learnings
 - Keep your files organized
 - Don’t keep everything in the root
 - When you have both procedural and data abstraction, that’s a class
