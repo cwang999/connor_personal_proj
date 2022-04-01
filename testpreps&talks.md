@@ -1,18 +1,30 @@
 {% include navbar.html %}
 
-# Tech Talk 0
-Difference between static coding and dynamic structures (we want data structures)’ Dictionaries are dynamic structures Try Except Fail - tries to open files
+# Tech Talk 0 Key Learnings
+Difference between static coding and dynamic structures (we want data structures)’
+- Dictionaries are dynamic structures
+- Try Except Else - tries to open files/complete task; if fails, goes to except; if no errors, goes to else block
 
 # TPT 0.1 Beneficial and Harmful Effects of Computing
-
-Drones Good and bad May violate privacy, but useful for search and rescue, photography, etc. Dopamine - Gaming, social media, instagram, youtube gets in the way of life Phone trees - saves money, reduces hold time, but may be inaccurate Can be represented with code: if statements, sequencing, and procedures Come up with 3 beneficial and harmful effects of computing. Then talk about dopamine issues above. Real? Anything impacting success?
-
-Action Instagram algorithms collect data about your preferences, creating a customized profile suited to your tastes However, this could be harmful because it could cause privacy concerns Phones and texting help us communicate when we’re far away from each other However, reliance on this form of communication breaks down personal interaction We’ve come to depend on things like Wifi, internet access, and online services, which help us in our daily lives However, we have become overly reliant on them and become lazy
+- Drones Good and bad May violate privacy, but useful for search and rescue, photography, etc. 
+- Dopamine - Gaming, social media, instagram, youtube gets in the way of life
+- Phone trees - saves money, reduces hold time, but may be inaccurate
+  - Can be represented with code: if statements, sequencing, and procedures
+- Come up with 3 beneficial and harmful effects of computing. Then talk about dopamine issues above. Real? Anything impacting success?
+  - Action: Instagram algorithms collect data about your preferences, creating a customized profile suited to your tastes. However, this could be harmful because it could cause privacy concerns. Phones and texting help us communicate when we’re far away from each other. However, reliance on this form of communication breaks down personal interaction. We’ve come to depend on things like Wifi, internet access, and online services, which help us in our daily lives. However, we have become overly reliant on them and become lazy.
 
 # TPT 0.2 Digital Divide 
-Have or don’t have in relation to computers, internet, and technology Poorer, rural areas might have less access to technology, or some countries have restricted internet access Contributing factors: socioeconomic, geographic, demographic Action Answer the following How does someone empower themselves in a digital world? We can use digital technology like the internet by finding resources to help them with education or finding career opportunities How does someone that is empowered help someone that is not empowered? People with access to resources should share them with those who have little access to computers and technology. Ex: if you’re replacing your old laptop with a new one, donate the old one to someone who needs it. Describe something you could do at Del Norte HS The school already hands out chromebooks to students who don’t have a computer. However, a lot of divide exists because some students aren’t familiar with technical and/or social media, and helping students move onto these platforms can increase connectivity and communication. Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte Any form of restricting access to technology is not digital empowerment. One example is the PUSD wifi, which isn’t great and lots of websites are restricted. Websites that would greatly benefit students’ learnings are prohibited.
+- Have or don’t have in relation to computers, internet, and technology
+- Poorer, rural areas might have less access to technology, or some countries have restricted internet access 
+- Contributing factors: socioeconomic, geographic, demographic
+- Action: Answer the following How does someone empower themselves in a digital world? 
+  - We can use digital technology like the internet by finding resources to help them with education or finding career opportunities How does someone that is empowered help someone that is not empowered? People with access to resources should share them with those who have little access to computers and technology. Ex: if you’re replacing your old laptop with a new one, donate the old one to someone who needs it.
+- Describe something you could do at Del Norte HS
+  - The school already hands out chromebooks to students who don’t have a computer. However, a lot of divide exists because some students aren’t familiar with technical and/or social media, and helping students move onto these platforms can increase connectivity and communication.
+- Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte
+  - Any form of restricting access to technology is not digital empowerment. One example is the PUSD wifi, which isn’t great and lots of websites are restricted. Websites that would greatly benefit students’ learnings are prohibited.
 
-# Tech Talk 1
+# Tech Talk 1 Key Learnings
 TT1
 - Lists and dictionaries are collection data structures (hold multiple values)
 - CRUD: user defines table as a class
@@ -109,7 +121,8 @@ Actions:
     - I was not a deployment manager for my project, so I don’t know the details of encryption, but it was likely used to make our website’s address more secure.
   - Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
     - Fortunately I haven’t been a victim of phishing yet as I am careful not to click suspicious links. Phishing techniques usually involve suspicious emails that mimic major organizations to try to get you to provide personal information.
-# TT2
+
+# Tech Talk 2 Key Learnings
 - Keep your files organized
 - Don’t keep everything in the root
 - When you have both procedural and data abstraction, that’s a class
