@@ -3,7 +3,7 @@
 # Tech Talk 0 Key Learnings
 Difference between static coding and dynamic structures (we want data structures)’
 - Dictionaries are dynamic structures
-- Try Except Fail - tries to open files
+- Try Except Else - tries to open files/complete task; if fails, goes to except; if no errors, goes to else block
 
 # TPT 0.1 Beneficial and Harmful Effects of Computing
 - Drones Good and bad May violate privacy, but useful for search and rescue, photography, etc. 
