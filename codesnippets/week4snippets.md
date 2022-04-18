@@ -1,3 +1,6 @@
+{% include navbar.html %}
+
+
 Hack 1
 ![image](https://user-images.githubusercontent.com/89167181/163705962-d6b8d280-df9c-4874-a5e7-93f7e74d27a1.png)
 
