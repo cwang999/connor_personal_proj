@@ -128,6 +128,9 @@ Actions:
 - When you have both procedural and data abstraction, that’s a class
 - Learn how to debug code in IntelliJ
 
+# WEEK 5 Study Plan
+Work on corrections on Wednesday and Friday and update Github Page. It seems I still have to study more about the internet terminology (like protocols, TCP IP, etc.). Beyond this area of weakness, I mostly understand the other topics because they are conceptually intuitive and my ability ot answer the question depends on thinking clearly and reading the problem thoroughly. I will continue to work on these areas as the week progresses.
+
 # Mock Test 1 Corrections
 1. A programmer is writing a program that is intended to be able to process large amounts of data. Which of the following considerations is LEAST likely to affect the ability of the program to process larger data sets?
 The answer is B: how many programming statements the program contains. The efficiencey and speed of the program does not depend on the number of code statements. I selected A, or how long the program takes to run. This is incorrect (it DOES affect the efficency) because longer times means lower efficiency.
