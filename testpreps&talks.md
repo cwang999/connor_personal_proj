@@ -147,3 +147,6 @@ The answer is not D, that the test only shows the program works for increasing o
 38. When a cellular telephone user places a call, the carrier transmits the caller’s voice as well as the voice of the person who is called. The encoded voices are the data of the call. In addition to transmitting the data, the carrier also stores metadata. The metadata of the call include information such as the time the call is placed and the phone numbers of both participants. For which of the following goals would it be more useful to computationally analyze the metadata instead of the data?
 The answer is C, both II and III, because in addition to providing info about the time calls were made, the metadata also includes phone numbers of both participants, so it can be used to see who was in contact with criminals and thus generate a list of suspects.
 
+# Mock Test 2 Corrections
+N/A - Score 50/50
+
