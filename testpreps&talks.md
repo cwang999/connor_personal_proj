@@ -132,19 +132,19 @@ Actions:
 Work on corrections on Wednesday and Friday and update Github Page. It seems I still have to study more about the internet terminology (like protocols, TCP IP, etc.). Beyond this area of weakness, I mostly understand the other topics because they are conceptually intuitive and my ability ot answer the question depends on thinking clearly and reading the problem thoroughly. I will continue to work on these areas as the week progresses.
 
 # Mock Test 1 Corrections
-1. A programmer is writing a program that is intended to be able to process large amounts of data. Which of the following considerations is LEAST likely to affect the ability of the program to process larger data sets?
+(1) A programmer is writing a program that is intended to be able to process large amounts of data. Which of the following considerations is LEAST likely to affect the ability of the program to process larger data sets?
 The answer is B: how many programming statements the program contains. The efficiencey and speed of the program does not depend on the number of code statements. I selected A, or how long the program takes to run. This is incorrect (it DOES affect the efficency) because longer times means lower efficiency.
 
-9. Of the following potential benefits, which is LEAST likely to be provided by the upgraded system?
+(9) Of the following potential benefits, which is LEAST likely to be provided by the upgraded system?
 The answer is not A because the diagram shows humans will still be needed for some inquiries. The answer is B, the company will be able to provide a human representative for any incoming call because this is impossible after business hours.
 
-23. Which of the following has the greatest potential for compromising a user’s personal privacy?
+(23) Which of the following has the greatest potential for compromising a user’s personal privacy?
 The answer is no B, or IP address, because it is needed for sending and receiving info on the internet and doesn't contain extra about the user. Browser cookes (A) can be used to track/collect user info.
 
-29. In order to test the program, the programmer initializes numList to [0, 1, 4, 5]. The program displays 10, and the programmer concludes that the program works as intended. Which of the following is true?
+(29) In order to test the program, the programmer initializes numList to [0, 1, 4, 5]. The program displays 10, and the programmer concludes that the program works as intended. Which of the following is true?
 The answer is not D, that the test only shows the program works for increasing order. This is wrong because the "for each" block means the first value is added twice. This means that the answer is C; it is insufficent to prove the program works for all cases.
 
-38. When a cellular telephone user places a call, the carrier transmits the caller’s voice as well as the voice of the person who is called. The encoded voices are the data of the call. In addition to transmitting the data, the carrier also stores metadata. The metadata of the call include information such as the time the call is placed and the phone numbers of both participants. For which of the following goals would it be more useful to computationally analyze the metadata instead of the data?
+(38) When a cellular telephone user places a call, the carrier transmits the caller’s voice as well as the voice of the person who is called. The encoded voices are the data of the call. In addition to transmitting the data, the carrier also stores metadata. The metadata of the call include information such as the time the call is placed and the phone numbers of both participants. For which of the following goals would it be more useful to computationally analyze the metadata instead of the data?
 The answer is C, both II and III, because in addition to providing info about the time calls were made, the metadata also includes phone numbers of both participants, so it can be used to see who was in contact with criminals and thus generate a list of suspects.
 
 # Mock Test 2 Corrections
