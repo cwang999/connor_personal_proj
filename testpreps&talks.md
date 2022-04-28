@@ -150,3 +150,9 @@ The answer is C, both II and III, because in addition to providing info about th
 # Mock Test 2 Corrections
 N/A - Score 50/50
 
+# Mock Test 3 Corrections 
+6) Which of the following algorithms display all integers between 1 and 20, inclusive, that are not divisible by 3 ?
+Incorrect. This algorithm displays the numbers 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, and 19. The number 20 is not displayed since the algorithm terminates immediately after x is assigned the value 20.
+The answer is not C because after x is assigned the value of 20 the program terminates, but x in the program is displayed after the x value is incremented. Thus the answer is D.
+14) The procedure below is intended to display the index in a list of unique names (nameList) where a particular name (targetName) is found. If targetName is not found in nameList, the code should display 0. Which of the following procedure calls can be used to demonstrate that the procedure does NOT work as intended?
+
