@@ -162,7 +162,28 @@ The answer is A. The problem with the program is that each time the item at the 
 This option (D) is correct. The procedure returns the first number it encounters that is less than the first number in the list. For the list in this answer choice, 30 is less than 40 so 30 is displayed but is not the minimum.
 
 (41) In public key cryptography, the sender uses the recipient’s public key to encrypt a message. Which of the following is needed to decrypt the message?
-The answer is D. In public key cryptography, the message  is encrypted with the recipient's private key and it is decrypted with the recipient's public key.
+The answer is D. In public key cryptography, the message  is encrypted with the recipient's pri vate key and it is decrypted with the recipient's public key.
 
 (50) What are the values of first and second as a result of executing the code segment?
 The answer is D, temp becomes 100, which second then becomes, and first becomes second.
+
+# Mock Test 5 Corre
+(17) Which of the following best compares the execution times of the two versions of the program?
+D is correct. Version I calls the GetPrediction procedure once for each element of idList, or four times total. Since each call requires 1 minute of execution time, version I requires approximately 4 minutes to execute. Version II calls the GetPrediction procedure twice for each element of idList, and then again in the final display statement. This results in the procedure being called nine times, requiring approximately 9 minutes of execution time.
+
+(18) Which of the following is a true statement about the use of public key encryption in transmitting messages?
+Public key encryption uses a public key for encryption and a private key for decryption. Symmetric encryption is a method that uses a single key for both encryption and decryption. D is correct: public-key encryption is considered a secure way of encoding data to prevent unauthorized access.
+
+(28) If category is "new" and age is 20, what are the values of val1 and val2 as a result of executing the code segment?
+The answer is D. The variable val1 is assigned false because NOT (category = "new") is false and age ≥ 65 is false. The variable val2 is assigned false because age < 12 is false.
+
+(30) While debugging the program, the student realizes that the loop never terminates. Which of the following changes can be made so that the program works as intended
+The answer is D. The program traverses wordList starting at the end of the list and moving to the start of the list, removing any elements that are equal to "the" or "a" along the way. Inserting this statement between lines 7 and 8 decrements index after checking each list element, ensuring that all elements are checked.
+
+(38) The code segment below uses the procedure One word, Goal Reached, which evaluates to true if the robot is in the gray square and evaluates to falseotherwise. Which of the following replacements for missing code can be used to move the robot to the gray square?
+Answer is A. This code segment rotates right whenever there is an open square to the right. The robot will move forward from its initial location to the upper-left corner of the grid, then rotate right, then move forward to the upper-right corner of the grid, then rotate right, then move down two squares, then rotate right, then move forward to the gray square.
+
+(43) Which of the following statements about the Internet is true?
+A is correct. The Internet uses standardized, open (nonproprietary) communication protocols. The Internet was designed to be scalable, using open protocols to easily connect additional computing devices to the network.
+
+
